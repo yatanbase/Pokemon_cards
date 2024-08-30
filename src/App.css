@@ -1,0 +1,7 @@
+body{ 
+  background-color: #06071d;
+}
+
+.card-container{
+  display: flex;
+}

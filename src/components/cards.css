@@ -1,0 +1,46 @@
+.card-box {
+    border-radius: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 17px #ffffff6a;
+    margin: 20px;
+    display: flex;
+    flex-direction: column; /* Stack vertically if needed */
+    padding: 10px;
+    height: 275px;
+    width: 210px;
+    background-color: rgb(30, 29, 29);
+  }
+  
+  .card-box h1, .card-box p {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+
+  .card-box button{
+    border-radius: 20px;
+    background-color: rgba(25, 25, 255, 0.882);
+    margin: 8px;
+  }
+  
+  .card-box button:nth-child(even){
+    background-color: red;
+  }
+
+
+  .card-box h1 {
+    background: linear-gradient(to bottom, #cd6a01, #cd6a01, #fbff00);
+    
+    -webkit-background-clip: text; /* Required for WebKit browsers */
+    -webkit-text-fill-color: transparent; /* Required for WebKit browsers */
+    background-clip: text; /* Standard property */
+    color: transparent; /* Ensures text color is transparent */
+    line-height: 1.2; /* Adjust line-height */
+  }
+  
+  .card-box p {
+    width: 100%; /* Ensure p takes full width */
+    line-height: 1.5; /* Adjust line-height */
+    color: #ffffff; /* Ensure text color is readable */
+    word-wrap: break-word; /* Ensure text wraps properly */
+  }
+  
